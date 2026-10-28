@@ -1,0 +1,6 @@
+gcloud compute instances create servidor-web-1 
+        --zone=us-central1-a 
+        --machine-type=e2-micro 
+        --subnet=subred-us 
+        --tags=web-server 
+        --metadata=startup-script='./startup_script.sh'
