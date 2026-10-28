@@ -17,5 +17,5 @@ resource "google_compute_region_instance_group_manager" "mig" {
     version {
         instance_template = google_compute_instance_template.tpl.id
     }
-    target_size = 2
+    target_size = 0
 }
