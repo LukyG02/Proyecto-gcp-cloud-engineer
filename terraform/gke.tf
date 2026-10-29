@@ -6,4 +6,5 @@ resource "google_container_cluster" "primary" {
         machine_type = "e2-medium" 
         oauth_scopes = ["https://www.googleapis.com/auth/cloud-platform"]
     }
+    deletion_protection = false
 }

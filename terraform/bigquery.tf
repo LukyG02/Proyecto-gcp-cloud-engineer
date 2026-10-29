@@ -6,6 +6,7 @@ resource "google_bigquery_dataset" "dataset" {
 resource "google_bigquery_table" "default" {
     dataset_id = google_bigquery_dataset.dataset.dataset_id
     table_id   = "resumen_ventas"
+    deletion_protection = false
     schema     = <<EOF
 [
     { "name": "producto", "type": "STRING", "node": "REQUIRED"},
