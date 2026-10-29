@@ -20,17 +20,17 @@ Proyecto integral de infraestructura como código (IaC) y automatización en Goo
 
 ---
 
-## ⚙️ Comandos de Ejecución y Despliegue
+# ⚙️ Comandos de Ejecución y Despliegue
 
-# Inicializar Terraform
+## Inicializar Terraform
 
 * terraform init
 
-# Desplegar la Infraestructura
+## Desplegar la Infraestructura
 
 * terraform apply 
 
-# Limpieza y Destrucción de Recursos
+## Limpieza y Destrucción de Recursos
 
 * terraform destroy -auto-approve
 
