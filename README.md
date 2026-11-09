@@ -1,5 +1,3 @@
-# Proyecto-gcp-cloud-engineer
-
 # 🚀 Automatización e Infraestructura End-to-End en GCP con Terraform y Python
 
 Proyecto integral de infraestructura como código (IaC) y automatización en Google Cloud Platform. Diseñado para orquestar la arquitectura completa de un entorno cloud seguro, abarcando desde redes personalizadas y cómputo auto-administrado hasta clústeres de Kubernetes, servicios Serverless, pipelines de datos y exportación automatizada de auditoría de logs.
